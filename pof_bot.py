@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import BeautifulSoup,urllib,urllib2, base64, ClientCookie
 from lib.cleverbot import cbot_Session
 import shutil, time
