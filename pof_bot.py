@@ -274,5 +274,7 @@ if __name__=="__main__":
     pof_pword="12345" #pof pword
     pof_pid="54321" #pof profile id
     bot = pof_bot(pof_uname,pof_pword,pof_pid)
+    bot.visitOnline() # visits all online users around the zip code of the bot's profile
+    # then clicks 'yes' on the meetme page for each profile
     bot.checkAllMail() # check all messages, reply if needed, create log file
     
