@@ -275,6 +275,7 @@ if __name__=="__main__":
     pof_pid="54321" #pof profile id
     bot = pof_bot(pof_uname,pof_pword,pof_pid)
     bot.visitOnline() # visits all online users around the zip code of the bot's profile
-    # then clicks 'yes' on the meetme page for each profile
+    # then clicks 'yes' on the meetme page for each profile. Meant to coax a few messages from lurkers
+    # warning: this can actually generate a MASSIVE influx of messages, especially around major cities...
     bot.checkAllMail() # check all messages, reply if needed, create log file
     
