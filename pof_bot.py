@@ -277,5 +277,5 @@ if __name__=="__main__":
     bot.visitOnline() # visits all online users around the zip code of the bot's profile
     # then clicks 'yes' on the meetme page for each profile. Meant to coax a few messages from lurkers
     # warning: this can actually generate a MASSIVE influx of messages, especially around major cities...
-    bot.checkAllMail() # check all messages, reply if needed, create log file
+    bot.checkAllMail() # check all messages, reply  with cleverbot if it is it's turn, create log file of all conversations
     
