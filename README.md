@@ -33,7 +33,7 @@ The logging functionality for Google Spreadsheets uses the 'gspread' library:
 https://github.com/burnash/gspread
 
 TODO:
-
+- OKCupid bot is in the works
 - login information should probably be gathered from command line arguments
 - Code for optionally dumping logs to IRC (as opposed to google docs)
 
