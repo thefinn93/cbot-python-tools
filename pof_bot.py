@@ -206,13 +206,14 @@ class pof_bot():
                     member=url[url.index("profile_id=")+11:]
                     self.meet(member)
         
-    def visitAll(self):
+    def visitAll(self, n_pages = 3):
         """
-        Walk through the site, visit all profiles possible.
+        Walk through the site, visit all profiles possible near the profile.
+        Goes n_pages levels deep
         Increases exposure.
         """
         visited=[]
-        for i in xrange(499):
+        for i in xrange(n_pages):
             p="http://www.pof.com/everyoneonline.aspx?page_id=" + str(i)
             myc="http://www.pof.com/lastonlinemycity.aspx?page="+str(i)
             data1=self.get(myc)
