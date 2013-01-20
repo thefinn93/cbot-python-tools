@@ -187,13 +187,14 @@ class pof_bot():
                     member=url[url.index("profile_id=")+11:]
                     self.meet(member)
     
-    def visitOnline(self):
+    def visitOnline(self, n_pages = 3):
         """
         visits all profiles of those on the 'whos online' page.
+        Goes n_pages levels deep.
         Increases exposure.
         """
         visited=[]
-        for i in xrange(500):
+        for i in xrange(n_pages):
             p="http://www.pof.com/everyoneonline.aspx?page_id=" + str(i)
             data=self.get(p)
             members=self.strip_members(data)
