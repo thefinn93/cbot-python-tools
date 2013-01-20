@@ -33,7 +33,7 @@ The logging functionality for Google Spreadsheets uses the 'gspread' library:
 https://github.com/burnash/gspread
 
 TODO:
-- OKCupid bot is in the works. OKC is much better designed than POF, so this may be tricky. At worst, Selenium might be needed for interfacing.
+- OKCupid bot is in the works. OKC is much better designed than POF, so this may be tricky. At worst, Selenium might be needed for message automation. This isn't too challenging, but is a bit tedious.
 - login information should probably be gathered from command line arguments
 - Code for optionally dumping logs to IRC (as opposed to google docs)
 
